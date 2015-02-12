@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+//=================================
+$lightgrey: #949494;
+$lightpink: #FFD1DB;
+//=================================
+
 /**
  * GRIDS
  */
@@ -48,4 +53,18 @@ img {max-width:100%;}
 
 body {
     transition: opacity .25s ease;
+    .side {
+        height: 30em;
+        width: 15em;
+        background-color: $lightgrey;
+        display: block;
+        float: left;
+        vertical-align: top;
+    }
+    .main {
+        height: 30em;
+        background-color: $lightpink;
+        display: block;
+        margin-left: 15em;
+    }
 }
